@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " M ",
+    "BTB"
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:magma_cream"
+    },
+    "B": {
+      "item": "minecraft:blaze_rod"
+    },
+    "T": {
+      "item": "god_trident:god_trident"
+    }
+  },
+  "result": {
+    "item": "god_trident:god_trident_demon",
+    "count": 1
+  },
+  "show_notification": true
+}

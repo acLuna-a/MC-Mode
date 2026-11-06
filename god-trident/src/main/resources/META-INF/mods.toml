@@ -1,0 +1,36 @@
+modLoader = "javafml"
+loaderVersion = "[46,)"
+license = "MIT"
+issueTrackerURL = ""
+
+[[mods]]
+modId = "god_trident"
+version = "1.0.0"
+displayName = "神创-三叉戟-神 / Godforged Trident"
+authors = "MiMo"
+description = '''
+以原版三叉戟为原型的强化武器。
+立体化手持模型；自带附魔「忠诚」。
+神(25) / 魔(79, 命中点燃, 酒红粒子) / 仙(100, 命中引雷, 白金粒子)。
+'''
+
+[[dependencies.god_trident]]
+modId = "forge"
+mandatory = true
+versionRange = "[46,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.god_trident]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20,1.20.2)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.god_trident]]
+modId = "touhou_little_maid"
+mandatory = true
+versionRange = "[1.5.3,)"
+ordering = "AFTER"
+side = "BOTH"

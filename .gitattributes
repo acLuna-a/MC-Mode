@@ -1,2 +1,6 @@
 # jar 是二进制文件，禁止任何换行符转换与文本 diff
 *.jar binary
+# 图片同理
+*.png binary
+# 批处理脚本必须保持 CRLF，否则 cmd.exe 可能执行异常
+*.bat text eol=crlf

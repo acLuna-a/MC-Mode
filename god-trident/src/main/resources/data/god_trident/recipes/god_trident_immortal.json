@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " S ",
+    "ATA"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:nether_star"
+    },
+    "A": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "T": {
+      "item": "god_trident:god_trident"
+    }
+  },
+  "result": {
+    "item": "god_trident:god_trident_immortal",
+    "count": 1
+  },
+  "show_notification": true
+}
